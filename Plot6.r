@@ -28,5 +28,5 @@ qplot(year, Emissions, data=data, color=city, geom=c("line"), xlab = "year", yla
 
 	 
 # Saving to a png file	 
-dev.copy(png, file = "plot6.png", height = 480, width = 480)
+dev.copy(png, file = "plot6.png", height = 480, width = 680)
 dev.off()
